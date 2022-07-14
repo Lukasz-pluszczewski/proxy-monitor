@@ -1,5 +1,5 @@
-# Typescript script boilerplate
-> TS script boilerplate with ts-node-dev, ink and prettier
+# Proxy monitor
+> Monitors and sets npm and git proxy
 
 ### Run the script
 ```bash

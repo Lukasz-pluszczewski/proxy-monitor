@@ -5,7 +5,7 @@
   "repository": "https://github.com/Lukasz-pluszczewski/proxy-monitor",
   "main": "dist",
   "scripts": {
-    "start": "NODE_PATH=src ENV=development NODE_OPTIONS='-r dotenv/config' tsnd src/index.ts"
+    "start": "./entrypoint.sh"
   },
   "author": "Łukasz Pluszczewski",
   "license": "MIT",
