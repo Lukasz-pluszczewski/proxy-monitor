@@ -1,21 +1,31 @@
 {
-  "name": "ts-node-script-boilerplate",
+  "name": "proxy-monitor",
   "version": "1.0.0",
-  "description": "ts-node script boilerplate using",
-  "repository": "https://github.com/Lukasz-pluszczewski/ts-node-script-boilerplate",
+  "description": "proxy monitor",
+  "repository": "https://github.com/Lukasz-pluszczewski/proxy-monitor",
   "main": "dist",
   "scripts": {
-    "start": "NODE_PATH=src ENV=development NODE_OPTIONS='--inspect -r dotenv/config' tsnd src/index.ts"
+    "start": "NODE_PATH=src ENV=development NODE_OPTIONS='-r dotenv/config' tsnd src/index.ts"
   },
   "author": "Łukasz Pluszczewski",
   "license": "MIT",
   "dependencies": {
+    "@types/node": "^18.0.4",
     "all-log": "1.1.0",
     "debug": "4.1.1",
     "dotenv": "7.0.0",
     "ink": "^3.2.0",
+    "ink-select-input": "^4.2.1",
+    "ink-spinner": "^4.0.3",
     "lodash": "4.17.13",
-    "react": "^18.2.0"
+    "normalize-url": "^7.0.3",
+    "react": "^18.2.0",
+    "replace-in-file": "^6.3.5",
+    "shell-escape": "^0.2.0",
+    "simple-git": "^3.10.0",
+    "swich": "^1.2.0",
+    "term-img": "^6.0.0",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "prettier": "2.7.1",

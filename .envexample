@@ -1,0 +1,5 @@
+PROXY_MONITOR_NPMRC_FILE_PATH=../../.npmrc
+PROXY_MONITOR_NPMRC_BACKUP_PATH=./npmrcbackup
+PROXY_MONITOR_NPMRC_TEMPLATE=(\# ==== proxy\-monitor ====)[\d\D]+(\# ==== \/proxy-monitor ====)
+PROXY_MONITOR_PERSISTENCE_FILE=./persistence.json
+PROXY_MONITOR_REPO_URL=my.domain.url.com
